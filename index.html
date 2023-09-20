@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Menú Responsive y Menú Desplegable usando sólo HTML y CSS</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/font-awesome.css">
+    <link rel="stylesheet" href="/style/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/83bccea05a.js"></script>
+</head>
+
+<body>
+
+    <nav>
+
+
+        <div class="wrapper">
+            <div class="logo"><a href="#">HTML Y CSS Nav-Bar</a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fa fa-bars"></i></label>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li>
+                    <a href="#" class="desktop-item">Menú desplegable</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">Menú desplegable</label>
+                    <ul class="drop-menu">
+                        <li><a href="#">Menú desplegable 1</a></li>
+                        <li><a href="#">Menú desplegable 2</a></li>
+                        <li><a href="#">Menú desplegable 3</a></li>
+                        <li><a href="#">Menú desplegable 4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="desktop-item">Mega Menú</a>
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item">Mega Menú</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="./img/imgdropDown.png" alt="">
+                            </div>
+                            <div class="row">
+                                <header>Servicios de diseño</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Gráficos</a></li>
+                                    <li><a href="#">Vectores</a></li>
+                                    <li><a href="#">Tarjetas de visita</a></li>
+                                    <li><a href="#">Logotipo personalizado</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Servicios de correo electrónico</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Correo electrónico personal</a></li>
+                                    <li><a href="#">Correo electrónico comercial</a></li>
+                                    <li><a href="#">Correo electrónico móvil</a></li>
+                                    <li><a href="#">Mercadeo Web</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Servicios de seguridad</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Sello del sitio</a></li>
+                                    <li><a href="#">Alojamiento VPS</a></li>
+                                    <li><a href="#">Sello de privacidad</a></li>
+                                    <li><a href="#">Diseño de sitios web</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Retroalimentación</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
+        </div>
+    </nav>
+
+    <div class="body-text">
+        <div class="title">Menú desplegable responsivo y mega menú</div>
+        <div class="sub-title">usando solo HTML y CSS</div>
+    </div>
+
+    <!-- FOTTER -->
+
+    <!-- Site footer -->
+
+    <div class="body-footer">
+        <section> Pie de página Ejemplo 4</section>
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <h3>Empresa<span>logotipo</span></h3>
+
+                <p class="footer-links">
+                    <a href="#" class="link-1">Inicio</a>
+
+                    <a href="#">Blog</a>
+
+                    <a href="#">Precios</a>
+
+                    <a href="#">Acerca de</a>
+
+                    <a href="#">Consultas</a>
+
+                    <a href="#">Póngase en contacto con</a>
+                </p>
+
+                <p class="footer-company-name">Nombre de la empresa © 2023</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>444 S. Cerro Ave</span> Stgo-chile</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+56 99445533</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">support@company.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>Acerca de la empresa</span>
+                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor
+                    lacus vehicula sit amet.
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
